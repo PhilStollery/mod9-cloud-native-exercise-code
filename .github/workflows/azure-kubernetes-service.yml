@@ -35,10 +35,10 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: 'acseshop1680758337'
+  AZURE_CONTAINER_REGISTRY: 'acseshop186748394'
   CONTAINER_NAME: 'productservice'
-  RESOURCE_GROUP: 'rg-eshop2'
-  CLUSTER_NAME: 'aks-eshop2'
+  RESOURCE_GROUP: 'rg-eshop'
+  CLUSTER_NAME: 'aks-eshop'
   DEPLOYMENT_MANIFEST_PATH: './Product.yml'
   DOCKER_PATH: './DockerfileProducts'
 
