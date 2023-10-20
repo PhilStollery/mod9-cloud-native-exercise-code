@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  # Checks out the repository this file is in
+  # Local environment variables used later in the workflow
   AZURE_CONTAINER_REGISTRY: 'acseshop186748394'
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop'
