@@ -39,7 +39,7 @@ env:
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop'
   CLUSTER_NAME: 'aks-eshop'
-  DEPLOYMENT_MANIFEST_PATH: './Product.yml'
+  DEPLOYMENT_MANIFEST_PATH: './product.yml'
   DOCKER_PATH: './DockerfileProducts'
 
 jobs:
