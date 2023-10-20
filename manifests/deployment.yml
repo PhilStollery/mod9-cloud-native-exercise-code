@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: philstollerymodcloudnativeexercisecode 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: philstollerymodcloudnativeexercisecode
+  template:
+    metadata:
+      labels:
+        app: philstollerymodcloudnativeexercisecode 
+    spec:
+      containers:
+        - name: philstollerymodcloudnativeexercisecode 
+          image: acseshop186748394.azurecr.io/philstollerymodcloudnativeexercisecode
+          ports:
+          - containerPort: 80
