@@ -39,8 +39,8 @@ env:
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop2'
   CLUSTER_NAME: 'aks-eshop2'
-  DEPLOYMENT_MANIFEST_PATH: './mod9-deploy-cloud-native-application-automatically/Product.yml'
-  DOCKER_PATH: './mod9-deploy-cloud-native-application-automatically/DockerfileProducts'
+  DEPLOYMENT_MANIFEST_PATH: './Product.yml'
+  DOCKER_PATH: './DockerfileProducts'
 
 jobs:
   buildImage:
